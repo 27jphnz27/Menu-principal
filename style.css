@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Cor de fundo */
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  background-color: #36393f; /* Cor do Discord */
+  color: #fff;
+  transition: right 0.3s ease;
+}
+
+.sidebar.active {
+  right: 0;
+}
+
+.sidebar .logo {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sidebar nav {
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: #7289da; /* Cor do Discord mais escura */
+}
+
+.content {
+  margin-right: 0;
+  padding: 20px;
+  transition: margin-right 0.3s ease;
+}
+
+.content .toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  background: #36393f; /* Cor do Discord */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.stories {
+  width: 100%;
+  height: 120px;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  border: 5px solid #7289da;
+  border-radius: 120px;
+  justify-content: flex-start; /* Ajuste para alinhar os círculos à esquerda */
+}
+
+.story-circle {
+  width: 119px;
+  height: 119px;
+  background-color: #7289da; /* Cor do Discord mais clara */
+  border-radius: 50%;
+  margin: 0 5px;
+  flex-shrink: 0; /* Impede que os círculos diminuam */
+}
+
+.introduction {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.introduction img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.introduction p {
+  font-size: 18px;
+  color: #333;
+}
+
+.role {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #7289da; /* Cor do Discord mais clara */
+  color: #fff;
+  font-size: 14px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.star {
+  color: #f1c40f; /* Cor do Instagram */
+}
+
+.lightning {
+  color: #f39c12; /* Cor Laranja */
+}
+
+.description {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.description img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 16px;
+  color: #333;
+}
+
+.description .circle {
+  width: 30px;
+  height: 30px;
+  background-color: #7289da; /* Cor do Discord mais clara */
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.interinos-description {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.interinos-description img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.interinos-description p {
+  font-size: 16px;
+  color: #333;
+}
+
+.interinos-description .circle {
+  width: 30px;
+  height: 30px;
+  background-color: #7289da; /* Cor do Discord mais clara */
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #7289da; /* Cor do Discord mais clara */
+  text-transform: uppercase;
+  border-bottom: 2px solid #7289da; /* Linha inferior */
+  padding-bottom: 10px; /* Espaçamento abaixo da linha */
+}
+
+.balloon {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #7289da; /* Cor do Discord mais clara */
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #f44336; /* Cor Vermelha */
+}
+.rolp12{
+  border-radius: 50%;
+  width: 119px;
+  height: 119px;
+  border: 2px solid gold;
+}
+.io1{
+  border-radius: 50%;
+  width: 119px;
+  height: 119px;
+  border:2px solid chartreuse;
+}
+.carlito12{
+  border-radius: 50%; 
+  width: 119px;
+  height: 119px;
+  border:2px solid dodgerblue;
+}
